@@ -1,0 +1,130 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: rgb(152, 252, 116);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    margin: 0%;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header .search-bar input {
+    padding: 10px;
+    width: 300px;
+    position:center;
+    border: none;
+    border-radius: 5px;
+}
+
+header .search-bar button {
+    padding: 10px;
+    background-color: #ffe600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+header .search-bar button:hover {
+    background-color: #ffaa00;
+}
+
+header .cart a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header .button {
+background: #ffe600;width: 60px;height: 40px;
+padding: 5px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+margin-left: 10px;
+}
+header .button:hover {
+    background-color: #f98627;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    margin: 15px 55px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.product-card button {
+    background-color: #da6d14;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #006bb3;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(120, 245, 79);
+    color: rgba(27, 12, 12, 0.769);
+    position: center;
+    width: 100%;
+    bottom: 0;
+}
